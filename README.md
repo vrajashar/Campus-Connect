@@ -1,26 +1,8 @@
-# 🎓 Campus Connect
+# React + Vite
 
-Campus Connect is a **web-based platform for university students** to interact, collaborate, and share information within their campus community.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-It enables students to **post updates, communicate with peers, and engage in discussions**, creating a centralized digital space for campus interaction.
+Currently, two official plugins are available:
 
----
-
-## ✨ Features
-
-- 📝 Create and share posts
-- 💬 Real-time interaction and discussions
-- 👥 User authentication and secure access
-- 📢 Community-driven content and engagement
-- 🔒 Protected routes using middleware
-- ⚡ Responsive and user-friendly interface
-
----
-
-## 🧠 Tech Stack
-
-- **Frontend:** React.js, JavaScript  
-- **Backend:** Node.js, Express.js  
-- **Database:** MongoDB  
-- **Authentication:** JWT-based Auth  
-- **Architecture:** MERN Stack  
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

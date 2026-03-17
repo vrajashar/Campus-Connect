@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Define keyframes for the animation */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  /* Apply the animation to both the image and text */
+  .animated-fade {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
